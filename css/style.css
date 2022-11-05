@@ -174,3 +174,129 @@ max-width: 595px;
     object-fit: cover;
     box-shadow: -2.2px -13.8px 73px rgba(0, 0, 0, 0.29);
 }
+
+/* Services */
+.services {
+    display: flex;
+    width: 1249px;
+    margin: 0 auto;
+    padding: 107px 0 99px;
+    border-bottom: 2px solid #ececec;
+    justify-content: space-between;
+}
+
+.services__heading {
+    margin: 0;
+    margin-bottom: 50px;
+    font-family: 'Open Sans';
+    font-size: 42px;
+    line-height: 55px;
+    font-weight: 700;
+    letter-spacing: 0.422159px;
+    text-transform: uppercase;
+}
+
+.services__about {
+    margin: 0;
+    margin-bottom: 64px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.action-link {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    width: 227px;
+    padding: 0.5em 1em;
+    min-height: 55px;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34px;
+    background-color: #FF2D2D;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.action-link_red-transp {
+    color: #ff2d2d;
+    background-color: rgba(0, 0, 0, 0.0001);
+    border: 2px solid #ff2d2d;
+}
+
+.services__info {
+    width: 539px;
+}
+
+.services__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 13px;
+    width: 610px;
+}
+
+.services__item {
+    width: 285px;
+    margin-bottom: 53px;
+}
+
+.services__item_icon_1::before {
+    content: "";
+    display: block;
+    width: 41px;
+    height: 41px;
+    background-image: url("../img/wheel.svg");
+    background-repeat: no-repeat;
+    margin-bottom: 33px;
+}
+
+.services__item_icon_2::before {
+    content: "";
+    display: block;
+    width: 41px;
+    height: 41px;
+    background-image: url("../img/pencil.svg");
+    background-repeat: no-repeat;
+    margin-bottom: 33px;
+}
+
+.services__item_icon_3::before {
+    content: "";
+    display: block;
+    width: 41px;
+    height: 41px;
+    background-image: url("../img/diamond.svg");
+    background-repeat: no-repeat;
+    margin-bottom: 33px;
+}
+
+.services__item_icon_4::before {
+    content: "";
+    display: block;
+    width: 41px;
+    height: 41px;
+    background-image: url("../img/Avto.svg");
+    background-repeat: no-repeat;
+    margin-bottom: 33px;
+}
+
+.services__title {
+    margin: 0;
+    margin-bottom: 13px;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.services__text {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 28px;
+}
