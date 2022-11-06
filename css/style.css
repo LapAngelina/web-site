@@ -43,36 +43,50 @@
     url('../fonts/open-sans-v34-latin-800italic.woff') format('woff');
 }
 
+/* Page */
 .page {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
     flex-direction: column;
+    font-size: 16px;
     min-width: 400px;
 }
 
-/* Heder*/
-.header-wrapper {
+.page__inner {
     display: flex;
     box-sizing: border-box;
     flex-wrap: wrap;
+}
+
+.page__inner_intro {
     padding-top: 29px;
+}
+
+.page__inner_grey {
     background-color: #f6f2f2;
 }
 
+.page__inner_section {
+    padding: 102px 0 110px;
+}
+
+.page__header {
+    margin: 0 auto;
+}
+
+/* Heder*/
 .header {
     display: flex;
-     box-sizing: border-box;
+    box-sizing: border-box;
     flex-wrap: wrap;
     justify-content: center;
     width: 1249px;
     min-height: 89px;
-    margin: 0 auto;
     background-color: rgba(0,0,0,0.8);
 }
 
-.menu-list {
+.site-menu__list {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
@@ -80,12 +94,12 @@
     list-style: none;
 }
 
-.menu-list > li {
+.site-menu__item {
     display: flex;
     min-height: 89px;
 }
 
-.menu-link {
+.site-menu__link {
     display: flex;
     align-items: center;
     padding: 0 30px;
@@ -98,23 +112,16 @@
     color: #e0e0e0;
 }
 
-.menu-link:hover {
+.site-menu__link:hover {
     background-color: #ff3f40;
 }
 
-.menu-active {
+.site-menu__link_active {
     background-color: #ff3f40;
 }
 
 /*Main*/
 /*Intro*/
-.intro-wrapper {
-    display: block;
-    width: 100%;
-    padding: 102px 0 110px;
-    background-color: #f6f2f2;
-}
-
 .intro {
     display: flex;
     width: 1249px;
@@ -122,11 +129,11 @@
     justify-content: space-between;
 }
 
-.intro-info {
+.intro__info {
 max-width: 595px;
 }
 
-.intro-heading {
+.intro__heading {
     font-family: 'Open Sans';
     font-size: 60px;
     line-height: 72px;
@@ -137,11 +144,11 @@ max-width: 595px;
     margin-bottom: 20px;
 }
 
-.intro-special{
+.intro__span_special{
     letter-spacing: 6px;
 }
 
-.intro-text {
+.intro__text {
     font-family: 'Open Sans';
     font-size: 16px;
     line-height: 28px;
@@ -150,7 +157,7 @@ max-width: 595px;
     margin-bottom: 63px;
 }
 
-.intro-action {
+.action-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,17 +165,20 @@ max-width: 595px;
     padding: 0.5em 1em;
     box-sizing: border-box;
     min-height: 55px;
-    color: #fff;
     font-family: 'Open Sans';
     font-size: 18px;
     font-weight: 700;
     line-height: 34px;
-    background-color: #FF2D2D;
     border-radius: 5px;
     text-decoration: none;
 }
 
-.intro-video {
+.action-link_red-full {
+    color: #fff;
+    background-color: #FF2D2D;
+}
+
+.intro__video {
     width: 551px;
     height: 356px;
     object-fit: cover;
