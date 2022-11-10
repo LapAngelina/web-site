@@ -322,6 +322,17 @@ max-width: 595px;
     margin-bottom: 88px;
 }
 
+.feature__header::after {
+    content: "";
+    position: absolute;
+    left: 40%;
+    transform: translateX(50%);
+    width: 130px;
+    height: 2px;
+    background-color: rgba(255, 45, 45, 1);
+    border: none;
+}
+
 .feature__heading {
     margin: 0;
     margin-bottom: 28.5px;
@@ -343,13 +354,6 @@ max-width: 595px;
     font-size: 15.9953px;
     line-height: 28px;
     text-align: center;
-}
-
-.feature__line {
-    width: 130px;
-    height: 2px;
-    background-color: rgba(255, 45, 45, 1);
-    border: none;
 }
 
 .filter {
