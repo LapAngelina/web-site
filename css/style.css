@@ -246,7 +246,7 @@ max-width: 595px;
 .services__items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: end;
+    justify-content: start;
     gap: 13px;
     width: 610px;
 }
