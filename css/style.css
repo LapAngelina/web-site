@@ -325,7 +325,7 @@ max-width: 595px;
 .feature__header::after {
     content: "";
     position: absolute;
-    left: 40%;
+    left: 45%;
     transform: translateX(50%);
     width: 130px;
     height: 2px;
