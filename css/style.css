@@ -590,8 +590,10 @@ max-width: 595px;
     font-family: 'Open Sans';
     font-size: 42px;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 1.2;
     color: #fff;
+    margin: 0;
+    margin-bottom: 17px;
 }
 
 .subscribe__about {
@@ -599,7 +601,8 @@ max-width: 595px;
     font-size: 15.9953px;
     line-height: 28px;
     color: #fff;
-    margin-bottom: 50px;
+    margin: 0;
+    margin-bottom: 59px;
 }
 
 .subscribe__form {
