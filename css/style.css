@@ -43,6 +43,14 @@
     url('../fonts/open-sans-v34-latin-800italic.woff') format('woff');
 }
 
+:root {
+    scroll-behavior: smooth;
+}
+
+button {
+    cursor: pointer;
+}
+
 /* Page */
 .page {
     font-family: 'Open Sans';
