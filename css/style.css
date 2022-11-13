@@ -331,10 +331,9 @@ max-width: 595px;
 }
 
 .feature__header::after {
+    display: block;
     content: "";
-    position: absolute;
-    left: 43%;
-    transform: translateX(50%);
+    margin: 0 auto;
     width: 130px;
     height: 2px;
     background-color: rgba(255, 45, 45, 1);
