@@ -265,7 +265,7 @@ max-width: 595px;
 
 .services__item {
     width: 285px;
-    min-height: 300px;
+    min-height: 255px;
 }
 
 .services__item_icon_1::before {
