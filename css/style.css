@@ -259,7 +259,7 @@ max-width: 595px;
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    gap: 13px;
+    gap: 13px 35px;
     width: 610px;
 }
 
