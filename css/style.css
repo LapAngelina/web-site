@@ -328,7 +328,7 @@ max-width: 595px;
 .feature {
     width: 1249px;
     margin: 0 auto;
-    padding: 105px 0 65px;
+    padding: 95px 0 65px;
 }
 
 .feature__header {
@@ -347,7 +347,7 @@ max-width: 595px;
 
 .feature__heading {
     margin: 0;
-    margin-bottom: 28.5px;
+    margin-bottom: 15px;
     font-family: 'Open Sans';
     font-size: 41.9876px;
     font-weight: 700;
@@ -361,7 +361,7 @@ max-width: 595px;
 .feature__about {
     width: 536.8px;
     margin: 0 auto;
-    margin-bottom: 34.5px;
+    margin-bottom: 28px;
     font-family: 'Open Sans';
     font-size: 15.9953px;
     line-height: 28px;
