@@ -209,18 +209,18 @@ max-width: 595px;
 
 .services__heading {
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     font-family: 'Open Sans';
     font-size: 42px;
     line-height: 55px;
     font-weight: 700;
-    letter-spacing: 0.422159px;
+    letter-spacing: 0.6px;
     text-transform: uppercase;
 }
 
 .services__about {
     margin: 0;
-    margin-bottom: 64px;
+    margin-bottom: 55px;
     font-family: 'Open Sans';
     font-size: 16px;
     line-height: 28px;
