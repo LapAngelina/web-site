@@ -202,7 +202,7 @@ max-width: 595px;
     display: flex;
     width: 1249px;
     margin: 0 auto;
-    padding: 107px 0 99px;
+    padding: 95px 0 99px;
     border-bottom: 2px solid #ececec;
     justify-content: space-between;
 }
@@ -261,6 +261,7 @@ max-width: 595px;
     justify-content: start;
     gap: 13px 35px;
     width: 610px;
+    padding: 11px 0;
 }
 
 .services__item {
