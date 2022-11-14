@@ -202,7 +202,7 @@ max-width: 595px;
     display: flex;
     width: 1249px;
     margin: 0 auto;
-    padding: 95px 0 99px;
+    padding: 95px 0 50px;
     border-bottom: 2px solid #ececec;
     justify-content: space-between;
 }
