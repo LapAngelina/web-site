@@ -652,7 +652,7 @@ max-width: 595px;
 .feedback {
     width: 1249px;
     margin: 0 auto;
-    padding: 104px 0 107px;
+    padding: 98px 0 107px;
 }
 
 .feedback__header {
@@ -684,7 +684,7 @@ max-width: 595px;
 .feedback__about {
     max-width: 720px;
     margin: 0;
-    margin-bottom: 39px;
+    margin-bottom: 50px;
     font-family: 'Open Sans';
     font-size: 15.9953px;
     line-height: 1.75;
@@ -699,7 +699,7 @@ max-width: 595px;
     margin-right: 107px;
     padding-left: 0;
     padding-right: 0;
-    margin-top: 98px;
+    margin-top: 75px;
 }
 
 .feedback__form {
@@ -741,7 +741,7 @@ max-width: 595px;
     box-sizing: border-box;
     resize: none;
     width: 731px;
-    height: 239px;
+    height: 250px;
     padding: 31px 51px;
     margin-bottom: 45px;
     border: none;
