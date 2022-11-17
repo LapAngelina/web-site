@@ -649,7 +649,6 @@ max-width: 595px;
 .feedback {
     width: 1249px;
     margin: 0 auto;
-    padding: 98px 0 107px;
 }
 
 .feedback__header {
@@ -692,8 +691,6 @@ max-width: 595px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /*width: 100%;*/
-    /*margin-right: 15px;*/
     padding-left: 0;
     padding-right: 0;
     margin-top: 75px;
@@ -800,6 +797,27 @@ max-width: 595px;
     color: #fff;
     font-family: 'Open Sans';
     margin: 0;
+}
+
+.feedback1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 98px;
+    padding-bottom: 107px;
+}
+
+.contacts__decor {
+    background-color: #2c2c2c;
+}
+
+.feedback__left-box {
+    flex: 1 1 auto;
+}
+
+.feedback__right-box {
+    min-height: 480px;
+    flex: 1 1 auto;
 }
 
 /* Footer */
