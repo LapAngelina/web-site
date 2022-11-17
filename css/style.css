@@ -89,7 +89,7 @@ button {
     box-sizing: border-box;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1249px;
+    max-width: 1249px;
     min-height: 89px;
     background-color: rgba(0,0,0,0.8);
 }
@@ -132,7 +132,7 @@ button {
 /*Intro*/
 .intro {
     display: flex;
-    width: 1249px;
+    max-width: 1249px;
     margin: 0 auto;
     justify-content: space-between;
 }
@@ -200,7 +200,7 @@ max-width: 595px;
 /* Services */
 .services {
     display: flex;
-    width: 1249px;
+    max-width: 1249px;
     margin: 0 auto;
     padding: 95px 0 50px;
     border-bottom: 2px solid #ececec;
@@ -326,7 +326,7 @@ max-width: 595px;
 
 /* Features */
 .feature {
-    width: 1249px;
+    max-width: 1249px;
     margin: 0 auto;
     padding: 95px 0 65px;
 }
@@ -419,7 +419,7 @@ max-width: 595px;
 
 /* Team */
 .team {
-    width: 1249px;
+    max-width: 1249px;
     margin: 0 auto;
     padding: 65px 0 110px;
 }
@@ -585,7 +585,7 @@ max-width: 595px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1579px;
+    max-width: 1579px;
     margin: 0 auto;
     padding: 146px 0 140px;
 }
@@ -647,7 +647,7 @@ max-width: 595px;
 
 /* Get in Touch*/
 .feedback {
-    width: 1249px;
+    max-width: 1249px;
     margin: 0 auto;
 }
 
