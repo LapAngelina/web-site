@@ -89,7 +89,7 @@ button {
     box-sizing: border-box;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1249px;
+    width: 1249px;
     min-height: 89px;
     background-color: rgba(0,0,0,0.8);
 }
