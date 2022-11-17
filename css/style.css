@@ -692,8 +692,8 @@ max-width: 595px;
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    width: 100%;
-    margin-right: 107px;
+    /*width: 100%;*/
+    margin-right: 130px;
     padding-left: 0;
     padding-right: 0;
     margin-top: 75px;
@@ -761,7 +761,7 @@ max-width: 595px;
 }
 
 .contacts {
-    width: 315px;
+    width: 185px;
     padding: 141px 17px 141px 81px;
 }
 
