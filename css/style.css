@@ -647,7 +647,7 @@ max-width: 595px;
 
 /* Get in Touch*/
 .feedback {
-    max-width: 1249px;
+    width: 1249px;
     margin: 0 auto;
 }
 
