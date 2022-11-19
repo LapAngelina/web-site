@@ -139,9 +139,23 @@ button {
     justify-content: space-between;
 }
 
+@media screen and (min-width: 350px) and (max-width: 1240px) {
+    .intro {
+        flex-wrap: wrap;
+    }
+}
+
 .intro__info {
     max-width: 595px;
     margin-right: 5vw;
+}
+
+@media screen and (max-width: 600px) {
+    .intro__info {
+        width: 100%;
+        margin-bottom: 80px;
+        margin-right: initial;
+    }
 }
 
 .intro__heading {
@@ -155,8 +169,20 @@ button {
     margin-bottom: 20px;
 }
 
+@media screen and (max-width: 600px) {
+    .intro__heading {
+        word-break: break-word;
+    }
+}
+
 .intro__span_special{
     letter-spacing: 6px;
+}
+
+@media screen and (max-width: 600px) {
+    .intro__span_special {
+        overflow-wrap: break-word;
+    }
 }
 
 .intro__text {
@@ -194,7 +220,7 @@ button {
 }
 
 .intro__video {
-    width: 551px;
+    max-width: 551px;
     height: 356px;
     object-fit: cover;
     box-shadow: -2.2px -13.8px 73px rgba(0, 0, 0, 0.29);
