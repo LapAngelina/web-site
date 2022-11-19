@@ -134,6 +134,7 @@ button {
 /*Intro*/
 .intro {
     display: flex;
+    flex-wrap: wrap;
     max-width: 1249px;
     margin: 0 auto;
     justify-content: space-between;
