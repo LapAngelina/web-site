@@ -142,7 +142,7 @@ button {
 
 .intro__info {
     max-width: 595px;
-    margin-right: 7vw;
+    margin-right: 6vw;
 }
 
 @media screen and (max-width: 600px) {
