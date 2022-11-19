@@ -439,6 +439,7 @@ button {
     height: 289px;
     object-fit: cover;
     object-position: 50% 50%;
+    flex: 1 1;
 }
 
 /* Team */
