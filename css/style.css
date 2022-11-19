@@ -140,7 +140,8 @@ button {
 }
 
 .intro__info {
-max-width: 595px;
+    max-width: 595px;
+    margin-right: 2vw;
 }
 
 .intro__heading {
