@@ -140,12 +140,6 @@ button {
     justify-content: space-between;
 }
 
-@media screen and (min-width: 350px) and (max-width: 1240px) {
-    .intro {
-        flex-wrap: wrap;
-    }
-}
-
 .intro__info {
     max-width: 595px;
     margin-right: 7vw;
