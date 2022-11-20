@@ -778,6 +778,12 @@ button {
     grid-template-rows: auto;
 }
 
+@media (max-width: 800px) {
+    .feedback__body {
+        padding: 0 1vw;;
+    }
+}
+
 .feedback__body::after {
     content: "";
     background-color: #2d2d2d;
