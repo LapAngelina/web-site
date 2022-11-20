@@ -168,7 +168,7 @@ button {
 
 .intro__heading {
     font-family: 'Open Sans';
-    font-size: 60px;
+    font-size: clamp(2em, 2em + 2vw, 60px);
     line-height: 1.2;
     font-weight: 800;
     letter-spacing: 1.5px;
