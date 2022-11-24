@@ -807,7 +807,7 @@ button {
 }
 
 .feedback__header {
-    width: 1249px;
+    max-width: 1249px;
     margin: 0 auto;
     margin-bottom: 67px;
 }
