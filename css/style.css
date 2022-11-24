@@ -575,7 +575,7 @@ button {
 }
 
 .team__about {
-    width: 450px;
+    max-width: 450px;
     margin: 0;
     margin-bottom: 39px;
     font-family: 'Open Sans';
