@@ -521,7 +521,14 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 57px;
+}
 
+@media screen and (max-width: 800px) {
+    .filter__list {
+        justify-content: center;
+        width: 200px;
+        gap: 10px;
+    }
 }
 
 .filter__link {
