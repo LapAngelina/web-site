@@ -103,6 +103,13 @@ button {
     background-color: rgba(0,0,0,0.8);
 }
 
+@media screen and (max-width: 800px) {
+    .header {
+        justify-content: flex-end;
+        padding-right: 6px;
+    }
+}
+
 .site-menu__list {
     display: flex;
     flex-wrap: wrap;
