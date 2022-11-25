@@ -187,6 +187,8 @@ button {
 .popup-menu__item {
     display: flex;
     min-height: 89px;
+    justify-content: center;
+    width: 100%;
 }
 
 .popup-menu__link {
@@ -207,7 +209,8 @@ button {
 }
 
 .popup-menu__link_active {
-    background-color: #ff3f40;
+    justify-content: center;
+    width: 100%;
 }
 
 @media screen and (min-width: 800px) {
