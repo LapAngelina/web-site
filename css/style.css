@@ -407,6 +407,12 @@ button {
     min-height: 255px;
 }
 
+@media screen and (max-width: 800px) {
+    .services__item {
+        width: 100%;
+    }
+}
+
 .services__item_icon_1::before {
     content: "";
     display: block;
