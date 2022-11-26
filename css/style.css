@@ -782,9 +782,10 @@ button {
         grid-row: auto;
     }
     .team__others {
-        justify-content: center;
+        justify-content: start;
         grid-column: 1 / 2;
         grid-row: auto;
+        margin: 0 55px;
     }
 }
 
