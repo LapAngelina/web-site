@@ -812,6 +812,12 @@ button {
     margin-bottom: 15px;
 }
 
+@media screen and (max-width: 1024px) {
+    .subscribe__heading {
+        padding: 0 50px;
+    }
+}
+
 .subscribe__about {
     font-family: 'Open Sans';
     font-size: 16px;
