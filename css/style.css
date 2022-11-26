@@ -384,9 +384,15 @@ button {
     width: 539px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1172px) {
     .services__info {
         margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .services__info {
+        margin-bottom: 0;
     }
 }
 
