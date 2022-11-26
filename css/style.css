@@ -778,7 +778,7 @@ img.feature__product:hover {
     }
 }
 
-@media screen and (min-width: 345px) and (max-width: 800px) {
+@media screen and (min-width: 345px) and (max-width: 869px) {
     .team__members {
         grid-template-columns: auto;
         grid-template-rows: auto;
