@@ -241,7 +241,7 @@ button {
     margin-right: 5vw;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
     .intro__info {
         width: 100%;
         margin-bottom: 80px;
