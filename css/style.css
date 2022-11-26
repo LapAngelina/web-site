@@ -906,7 +906,10 @@ button {
 
 @media (max-width: 1200px) {
     .feedback__body {
-        padding: 0 1vw;;
+        padding: 0 1vw;
+    }
+    .feedback__header {
+        padding: 0 1vw;
     }
 }
 
