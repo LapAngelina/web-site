@@ -577,6 +577,11 @@ button {
     flex: 1 1;
 }
 
+img.feature__product:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+}
+
 /* Team */
 .team {
     max-width: 1249px;
