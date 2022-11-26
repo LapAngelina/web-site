@@ -827,6 +827,15 @@ button {
     margin-bottom: 55px;
 }
 
+@media screen and (max-width: 768px) {
+    .subscribe__heading {
+        padding: 0 130px;
+    }
+    .subscribe__about {
+        margin: 0px 130px 55px;
+    }
+}
+
 .subscribe__form {
     display: flex;
     flex-wrap: wrap;
