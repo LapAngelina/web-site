@@ -949,6 +949,7 @@ button {
 .feedback__button {
     width: 731px;
     height: 72px;
+    font-weight: 700;
     border: none;
     border-radius: 5px;
     background-color: #ff3b3b;
