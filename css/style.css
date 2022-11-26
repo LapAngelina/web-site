@@ -746,7 +746,7 @@ button {
     display: block;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 345px) and (max-width: 1024px) {
     .team__members {
         grid-template-columns: auto;
         grid-template-rows: auto;
@@ -767,7 +767,7 @@ button {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 345px) and (max-width: 800px) {
     .team__members {
         grid-template-columns: auto;
         grid-template-rows: auto;
