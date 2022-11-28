@@ -639,6 +639,14 @@ img.feature__product:hover {
     color: #000000;
 }
 
+@media screen and (max-width: 800px) {
+    .team__heading {
+        word-break: break-word;
+        font-size: 30px;
+        line-height: 1.2;
+    }
+}
+
 .team__about {
     max-width: 450px;
     margin: 0;
@@ -935,6 +943,14 @@ img.feature__product:hover {
     letter-spacing: 0.4px;
     text-transform: uppercase;
     color: #000000;
+}
+
+@media screen and (max-width: 800px) {
+    .feedback__heading {
+        word-break: break-word;
+        font-size: 30px;
+        line-height: 1.2;
+    }
 }
 
 .feedback__about {
