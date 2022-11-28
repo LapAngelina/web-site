@@ -524,6 +524,14 @@ button {
     text-align: center;
 }
 
+@media screen and (max-width: 800px) {
+    .feature__heading {
+        word-break: break-word;
+        font-size: 30px;
+        line-height: 1.2;
+    }
+}
+
 .feature__about {
     max-width: 537px;
     margin: 0 auto;
