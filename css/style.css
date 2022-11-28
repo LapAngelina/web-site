@@ -263,6 +263,8 @@ button {
 @media screen and (max-width: 600px) {
     .intro__heading {
         word-break: break-word;
+        font-size: 30px;
+        line-height: 1.2;
     }
 }
 
