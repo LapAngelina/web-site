@@ -876,12 +876,15 @@ img.feature__product:hover {
     justify-content: center;
     align-items: center;
     width: 214px;
-    height: 79px;
+    min-height: 79px;
     border: none;
     border-radius: 5px;
     background-color: #ff2d2d;
     text-transform: uppercase;
     color: #fff;
+    overflow: hidden;
+    padding: 5px 5px;
+    word-break: break-all;
 }
 
 /* Get in Touch*/
@@ -1003,7 +1006,7 @@ img.feature__product:hover {
 
 .feedback__button {
     width: 731px;
-    height: 72px;
+    min-height: 72px;
     font-weight: 700;
     border: none;
     border-radius: 5px;
@@ -1012,6 +1015,9 @@ img.feature__product:hover {
     font-size: 18px;
     color: #fff;
     text-transform: uppercase;
+    overflow: hidden;
+    padding: 5px 5px;
+    word-break: break-all;
 }
 
 .contacts {
